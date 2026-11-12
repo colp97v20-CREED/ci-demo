@@ -8,4 +8,4 @@ jobs:
  - name: Проверка файлов
  run: ls -la
  - name: Заведомо падающий шаг
- run: exit 1
+ run: echo
