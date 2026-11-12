@@ -6,6 +6,6 @@ jobs:
  steps:
  - uses: actions/checkout@v4
  - name: Проверка файлов
- run: ls -la
- - name: Заведомо падающий шаг
- run: echo Все хорошо
+ run: ls -la 
+- name: Заведомо падающий шаг
+run: echo "Все хорошо"
